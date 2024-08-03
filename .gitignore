@@ -1,6 +1,9 @@
 dbgen/*
+!dbgen/.gitkeep
 dev-tools/*
+!dev-tools/.gitkeep
 ref_data/*
+!ref_data/.gitkeep
 EULA.txt
 specification.docx
 specification.pdf
@@ -8,3 +11,6 @@ results/*
 dss/data/*
 dss/queries/*
 dss/refresh/*
+!dss/data/.gitkeep
+!dss/queries/.gitkeep
+!dss/refresh/.gitkeep
