@@ -5,3 +5,6 @@ EULA.txt
 specification.docx
 specification.pdf
 results/*
+dss/data/*
+dss/queries/*
+dss/refresh/*
