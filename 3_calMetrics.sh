@@ -17,6 +17,8 @@ if [ ! -f "$POWERTEST_RESULT_PATH" ]; then
     exit 0
 fi
 
+echo "Calculando metricas do resultado $TEST_NUM"
+
 TotalTime=$(awk '{sum += $1} END {printf "%.2f\n", sum}' $POWERTEST_RESULT_PATH);
 echo "Total time: $TotalTime segs"
 echo ""

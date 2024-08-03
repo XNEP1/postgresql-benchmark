@@ -11,7 +11,7 @@ cd ./dss
 echo ""
 echo "======================================================"
 echo ""
-echo "CREATE DATABASE"
+echo "CREATING DATABASE"
 psql -c "DROP DATABASE $DATABASE"
 psql -c "CREATE DATABASE $DATABASE"
 

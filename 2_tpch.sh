@@ -20,7 +20,7 @@ psql postgres -c "select name,setting from pg_settings" > $RESULTS/settings.log
 echo "2_tpch: loading data"
 ./dss/load.sh $DBNAME
 
-mkdir -p $RESULTS/results
+mkdir -p results/results
 
 echo "2_tpch: running TPC-H benchmark"
 
